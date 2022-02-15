@@ -1,4 +1,4 @@
-# Patch Extraction using cropping in a Sliding Window
+# Patch Extraction (Cropping in a Sliding Window)
 This project is a part of the thesis titled Automated Detection of Placental Lesions at the University of Ottawa.
 
 #### -- Project Status: [Completed]
