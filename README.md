@@ -1,45 +1,26 @@
-# Project Name
+# Patch Extraction using cropping in a Sliding Window
 This project is a part of the thesis titled Automated Detection of Placental Lesions at the University of Ottawa.
 
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
-
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
+The purpose of this project is to automate the patch extraction of .svs images captured from placental histological slides. The method of patch extraction is cropping in a sliding window. The objective is to input an .svs image and output a folder containing cropped images in .jpg format.
 
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
+* Computer Vision
+* 
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* OpenCV
 
 ## Project Description
 (Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
 
 ## Needs of this project
-
-- frontend developers
 - data exploration/descriptive statistics
 - data processing/cleaning
-- statistical modeling
 - writeup/reporting
-- etc. (be as specific as possible)
 
 ## Getting Started
 
@@ -62,6 +43,5 @@ The purpose of this project is ________. (Describe the main goals of the project
 
 
 ## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
 * Our slack channel is `#datasci-projectname`
 * Feel free to contact team leads with any questions or if you are interested in contributing!
