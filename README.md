@@ -8,19 +8,19 @@ The purpose of this project is to automate the patch extraction of .svs images c
 
 ### Methods Used
 * Computer Vision
-* 
+* Image acquisition, processing, and analysis
 
 ### Technologies
 * Python
 * OpenCV
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+The image dataset was pre-processed from 166 WSIs captured in ‘.svs’ format from 166 patients. One or more images were cropped from each slide using Aperio ImageScope software, minimizing the amount of empty/white space included in the image and separating the tissue samples into separate images if there were multiple samples present from the same patient on the slide. These 263 cropped images underwent patch extraction using the ‘sliding window’ approach. Briefly, image patches were extracted using a window of size 1000 x 1000 pixels (px) sliding from the top left corner to the right by 500 px and down by 500 px of the cropped images. The total number of patches extracted from one cropped image ranged from 3 – 328 patches, dependent on the amount of tissue on the WSI. 
 
 ## Needs of this project
-- data exploration/descriptive statistics
-- data processing/cleaning
-- writeup/reporting
+- image data exploration
+- image data processing/cleaning
+- writeup/reporting/analysis
 
 ## Getting Started
 
@@ -29,19 +29,15 @@ The purpose of this project is to automate the patch extraction of .svs images c
 
     *If using offline data mention that and how they may obtain the data from the froup)*
     
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
+3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks) 
 
 5. Follow setup [instructions](Link to file)
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+* ['Thesis Proposal - Patch Extraction'](link)
+
 
 
 ## Contact
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+* purvasha.patnaik@gmail.com
+* Feel free to contact me with any questions or if you are interested in my thesis project!
